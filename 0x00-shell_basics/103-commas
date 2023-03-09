@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p1 -a | LC_ALL=C sort -df | awk '$0=$0"/"' | tr '\n' ',' ; echo ""
+(ls -p1 -a | LC_ALL=C sort -df | awk '$0=$0"/"'; echo "") | tr '\n' ','
